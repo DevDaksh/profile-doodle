@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #a9d9bc;
+    height: 100%;
+    width: 100vw;
+}
+
+.top, .middle, .bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.instagram, .linkedin, .blogs, .twitter, .web {
+    height: 35vh;
+    width: 17.5vw;
+    transition: all 0.6s ease;
+}
+
+.instagram:hover, .linkedin:hover, .blogs:hover, .twitter:hover, .web:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.moon {
+    height: 35vh;
+    width: 30vw;
+}
